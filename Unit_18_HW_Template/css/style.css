@@ -19,6 +19,8 @@ header p {
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;
+  background-image: url("../images/AP images/portfolio-site-map.jpeg");
+  border: 1px solid black;
 }
 .content {
   max-width: 300px;
@@ -26,6 +28,11 @@ header p {
   padding: 50px;
   background-color: #FFFFFF;
   text-align: center;
+  border: 3px solid black;
+}
+.content img {
+  align-items: center;
+  max-width: 300px;
 }
 button {
   padding: 15px;
@@ -60,6 +67,10 @@ footer li {
 .flexContainer div {
   width: 33%;
   padding: 25px;
+}
+.flexContainer img {
+  max-width: 200px;
+  max-height: 200px;
 }
 
 /* My Work Section */
