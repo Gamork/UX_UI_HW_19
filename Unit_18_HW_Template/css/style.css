@@ -16,11 +16,16 @@ header li {
 header p {
   display: inline-block;
 }
+li:hover {
+  background-color: white;
+  color: black
+}
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;
   background-image: url("../images/AP images/portfolio-site-map.jpeg");
   border: 1px solid black;
+  /*background-size: cover;*/
 }
 .content {
   max-width: 300px;
@@ -40,6 +45,10 @@ button {
   color: white;
   font-size: 15px;
   border-radius: 4px;
+}
+button:hover {
+  background-color: rgb(180, 180, 180);
+  color: black;
 }
 footer {
   background-color: #373738;
