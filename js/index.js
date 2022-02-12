@@ -9,3 +9,9 @@ $("#logoAndy").click(function(){
         scrollTop: $(".heading").offset().top},
         'slow');
 });
+
+$(".workButton").click(function() {
+  $('html,body').animate({
+      scrollTop: $(".myWork").offset().top},
+      'slow');
+});
