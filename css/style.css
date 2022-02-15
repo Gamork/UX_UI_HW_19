@@ -100,8 +100,8 @@ footer li {
   background-color: #5c2c2c;
 }
 .myWork .heading {
-  color: #55a2e2;
-
+  
+  text-shadow:.25px .25px #55a2e2;
 }
 .workGrid {
   display: grid;
